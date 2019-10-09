@@ -1,0 +1,19 @@
+<root main_tree_to_execute="BehaviorTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence name="sq">
+            <Fallback>
+                <AlwaysFailure/>
+                <AlwaysSuccess/>
+            </Fallback>
+            <Parallel threshold="">
+                <AlwaysSuccess/>
+                <AlwaysFailure/>
+            </Parallel>
+        </Sequence>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel/>
+    <!-- ////////// -->
+</root>
+
